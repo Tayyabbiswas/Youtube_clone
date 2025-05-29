@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Tag</title>
+  </head>
+  <body bgcolor="bisque">
+    <h1>Register Yourself For Interview</h1>
+
+    <form action="#">
+      <label for="firstname">First Name</label>
+      <input type="text" id="firstname" placeholder="Enter your first name" />
+      <label for="lastname">Last Name</label>
+      <input type="text" placeholder="Enter your last name " id="lastname" />
+      <br /><br />
+      <label for="age">Age</label>
+      <input type="number" id="age" placeholder="Enter valid age " />
+      <br />
+      <br />
+      <label for="D.O.B">Date Of Birth</label>
+      <input type="date" id="D.O.B" />
+      <br /><br />
+      <label for="email">Email</label>
+      <input type="email" id="email " placeholder="" />
+      <br /><br />
+      <label for="pass">Password</label>
+      <input type="password" id="pass" />
+      <br /><br />
+      <p>How many years of expreience do you have ?</p>
+
+      <input type="radio" id="exp" name="exp" />
+      <label for="exp">Fresher</label><br />
+      <input type="radio" id="exp" name="exp" />
+      <label for="exp">One Year</label><br />
+      <input type="radio" id="exp" name="exp" />
+      <label for="exp">More Than One Year</label>
+
+      <br /><br />
+      <label for="color"> Your Favourite Color</label>
+      <input type="color" id="color" />
+
+      <br /><br />
+      <label for="proglang">Choose a Programming Language</label>
+      <select name="proglang" id="proglang">
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+
+        <option value="C">C</option>
+
+        <option value="C++">C++</option>
+
+        <option value="ruby">Ruby</option>
+
+        <option value="Javascript">Javascript</option></select
+      ><br /><br />
+      <label for="feedback">Tell us why we should hire you</label><br />
+      <textarea name="feedback" id="feedback" rows="10" cols="30"></textarea>
+      <br /><br /><button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+      <br /><br /><br /><br /><br />
+    </form>
+  </body>
+</html>
